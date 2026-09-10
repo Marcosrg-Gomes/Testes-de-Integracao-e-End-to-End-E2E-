@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Área do Usuário{% endblock %}
+{% block content %}
+    <h2>Bem-vindo(a), {{ usuario["nome"] }}!</h2>
+
+    <p class="alerta alerta-sucesso">Autenticação realizada com sucesso.</p>
+
+    <div class="dados-usuario">
+        <p><strong>Nome:</strong> {{ usuario["nome"] }}</p>
+        <p><strong>E-mail:</strong> {{ usuario["email"] }}</p>
+        <p><strong>Cadastrado em:</strong> {{ usuario["criado_em"] }}</p>
+    </div>
+
+    <a class="botao-logout" href="{{ url_for('logout') }}">Sair</a>
+{% endblock %}

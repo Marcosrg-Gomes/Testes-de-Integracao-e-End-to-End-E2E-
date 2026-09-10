@@ -1,0 +1,14 @@
+{
+  "name": "cadastro-login-app",
+  "version": "1.0.0",
+  "description": "Aplicação web simples de cadastro e login, criada como base para estudo e aplicação prática de **testes de integração** e **testes End-to-End (E2E)**.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^22.20.2"
+  }
+}
