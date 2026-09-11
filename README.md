@@ -1,4 +1,4 @@
-# Cadastro e Login de Usuários
+## Cadastro e Login de Usuários
 
 Aplicação web simples de cadastro e login, criada como base para estudo e
 aplicação prática de **testes de integração** e **testes End-to-End (E2E)**.
